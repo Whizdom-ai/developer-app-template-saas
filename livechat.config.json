@@ -1,5 +1,17 @@
 {
     "id": "FLhuxVqNR",
     "name": "saas crm",
-    "product": "livechat"
+    "product": "livechat",
+    "blocks": {
+        "authorization": {
+            "clientId": "82bd4bdfeecf15c6eac9ae2f6b272309",
+            "type": "server_side_app",
+            "redirectUri": "http://localhost"
+        },
+        "repository": {
+            "provider": "github",
+            "name": "Whizdom-ai/developer-app-template-saas",
+            "branch": "main"
+        }
+    }
 }
